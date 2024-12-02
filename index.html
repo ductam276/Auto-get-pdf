@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="login-section">
+    <h2>Đăng nhập</h2>
+    <input type="password" id="password" placeholder="Nhập mã duy nhất">
+    <button onclick="login()">Đăng nhập</button>
+  </div>
+
+  <div id="main-section" style="display: none;">
+    <h1>Quản lý PDF</h1>
+
+    <div id="upload-section">
+      <h3>Upload PDF</h3>
+      <input type="file" id="pdfUpload" accept="application/pdf">
+      <button onclick="uploadPDF()">Upload</button>
+    </div>
+
+    <h3>Danh sách PDF</h3>
+    <ul id="pdfList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
