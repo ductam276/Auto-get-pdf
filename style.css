@@ -1,7 +1,42 @@
-
-:root {
-    --text-color: red;
+* {
+    margin: 0;
+    padding: 0;
 }
-.title h1 {
+html {
+    font-size: 62.5%;
+}
+:root {
+    --text-color: rgb(255, 0, 0);
+}
+div.header {
+    background-color: bisque;
+    width: 100vw;
+    height: 10vh;
+}
+div.footer {
+    background-color: bisque;
+    width: 100vw;
+    height: 10vh;
+}
+.header h1 {
     color: var(--text-color);
+    font: bold;
+}
+.footer p {
+    font-size: 2rem;
+}
+input.link {
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    height: 2vh;
+    margin: 10;
+}
+input, .start-num, .end-num, .padding  {
+    background-color: rgb(255, 255, 255);
+    width: 15vw;
+    height: 2vh;
+    margin: 10;
+}
+ul.contact{
+    font-size: 1.7rem;
 }
