@@ -7,6 +7,10 @@ html {
 }
 :root {
     --text-color: rgb(255, 0, 0);
+    --magrin-button: 10;
+}
+input.dowload:active {
+    color: rgb(0, 255, 98);
 }
 div.header {
     background-color: bisque;
@@ -29,13 +33,19 @@ input.link {
     background-color: rgb(255, 255, 255);
     width: 20vw;
     height: 2vh;
-    margin: 10;
+    margin: var(--margin-button);
 }
-input, .start-num, .end-num, .padding  {
+input, .start-num, .end-num {
     background-color: rgb(255, 255, 255);
     width: 15vw;
     height: 2vh;
-    margin: 10;
+    margin: var(--margin-button);
+}
+input.dowload {
+    background-color: aqua;
+    width: 5vw;
+    height: 2vh;
+    margin: var(--margin-button);
 }
 ul.contact{
     font-size: 1.7rem;
