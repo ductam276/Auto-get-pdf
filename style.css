@@ -42,7 +42,7 @@ input, .start-num, .end-num {
     margin: var(--margin-button);
 }
 input.dowload {
-    background-color: aqua;
+    background-color: dark_aqua;
     width: 5vw;
     height: 2vh;
     margin: var(--margin-button);
