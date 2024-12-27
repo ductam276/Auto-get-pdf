@@ -41,8 +41,8 @@ input, .start-num, .end-num {
     height: 2vh;
     margin: var(--margin-button);
 }
-input.dowload {
-    background-color: dark_aqua;
+button {
+    background-color: darkcyan;
     width: 5vw;
     height: 2vh;
     margin: var(--margin-button);
